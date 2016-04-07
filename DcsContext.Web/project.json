@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-DcsContext.Web-72f09b33-92ca-4917-a329-528ce92dcb34",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -34,7 +34,11 @@
   },
 
   "frameworks": {
-    "dnx451": { },
+    "dnx451": {
+        "dependencies": {
+            "CouchbaseNetClient": "2.2.6"
+        }
+    },
     "dnxcore50": { }
   },
 

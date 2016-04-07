@@ -1,0 +1,29 @@
+﻿@{ ViewBag.Title = "Sigma Graph"; }
+@section css {
+	<style>
+		#experienceapps {
+			max-width: 1600px;
+			height: 900px;
+			margin: auto;
+		}
+
+	</style>
+}
+
+<div id="experienceapps"></div>
+
+@section scripts {
+	@{
+		@*<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>*@
+		<script src="~/lib/sigma/sigma.js"></script>
+		<script src="~/lib/sigma/sigma.parsers.json.min.js"></script>
+		<script>
+			sigma.parsers.json('/data/experience_apps_sigma.json', {
+				container: 'experienceapps',
+				settings: {
+					defaultNodeColor: '#ec5148'
+				}
+			});
+		</script>
+	}
+}

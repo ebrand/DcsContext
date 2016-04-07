@@ -1,0 +1,111 @@
+﻿{
+	"nodes": [
+		{
+			"name": "DSA",
+			"layer": 1,
+			"size": 30
+		},
+		{
+			"name": "Product API",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "Customer API",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "Commerce API",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "Payment API",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "DCP Quote Orchestrator",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "DCP Order Orchestrator",
+			"layer": 2,
+			"size": 20
+		},
+		{
+			"name": "GCM Pipeline",
+			"layer": 3,
+			"size": 10
+		},
+		{
+			"name": "Global Payment Gateway (GPG)",
+			"layer": 3,
+			"size": 10
+		}
+	],
+	"links": [
+		{
+			"source": 0,
+			"target": 1,
+			"weight": 10
+		},
+		{
+			"source": 0,
+			"target": 2,
+			"weight": 10
+		},
+		{
+			"source": 0,
+			"target": 3,
+			"weight": 10
+		},
+		{
+			"source": 0,
+			"target": 4,
+			"weight": 10
+		},
+		{
+			"source": 0,
+			"target": 5,
+			"weight": 10
+		},
+		{
+			"source": 0,
+			"target": 6,
+			"weight": 10
+		},
+		{
+			"source": 1,
+			"target": 7,
+			"weight": 1
+		},
+		{
+			"source": 2,
+			"target": 7,
+			"weight": 1
+		},
+		{
+			"source": 3,
+			"target": 7,
+			"weight": 1
+		},
+		{
+			"source": 4,
+			"target": 8,
+			"weight": 1
+		},
+		{
+			"source": 5,
+			"target": 7,
+			"weight": 1
+		},
+		{
+			"source": 6,
+			"target": 7,
+			"weight": 1
+		}
+	]
+}

@@ -1,0 +1,61 @@
+﻿{
+	"nodes": [
+		{
+			"id": "dsa",
+			"label": "Dell Sales App",
+			"x": 1.5,
+			"y": 0,
+			"size": 30
+		},
+		{
+			"id": "productApi",
+			"label": "Product API",
+			"x": 0,
+			"y": 1,
+			"size": 20
+		},
+		{
+			"id": "customerApi",
+			"label": "Customer API",
+			"x": 1,
+			"y": 1,
+			"size": 20
+		},
+		{
+			"id": "commerceApi",
+			"label": "Commerce API",
+			"x": 2,
+			"y": 1,
+			"size": 20
+		},
+		{
+			"id": "paymentApi",
+			"label": "Payment API",
+			"x": 3,
+			"y": 1,
+			"size": 20
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"source": "dsa",
+			"target": "productApi"
+		},
+		{
+			"id": "e1",
+			"source": "dsa",
+			"target": "customerApi"
+		},
+		{
+			"id": "e2",
+			"source": "dsa",
+			"target": "commerceApi"
+		},
+		{
+			"id": "e3",
+			"source": "dsa",
+			"target": "paymentApi"
+		}
+	]
+}
